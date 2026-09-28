@@ -4,6 +4,8 @@ Turn one Markdown file into a single-file HTML slide deck, with zero dependencie
 
 mdslides 把一份 Markdown 變成**單一 HTML 檔**的簡報。圖片、CSS、JS 全部內嵌，沒有 CDN，雙擊就能播，寄給別人也不會壞。Markdown 解析器、語法高亮、播放器都是自己寫的，執行期不依賴任何套件。
 
+線上範例簡報：<https://useless-husband.github.io/mdslides/examples/intro.html>（用 ← → 換頁，按 o 看總覽、s 開簡報者模式）
+
 ![一般模式](docs/slide.png)
 
 ## 功能
