@@ -1,0 +1,27 @@
+{
+  "name": "mdslides",
+  "version": "0.1.0",
+  "description": "Turn one Markdown file into a single-file HTML slide deck. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "mdslides": "bin/mdslides.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example": "node bin/mdslides.js examples/intro.md -o examples/intro.html"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["markdown", "slides", "presentation", "cli"],
+  "license": "MIT",
+  "dependencies": {}
+}
